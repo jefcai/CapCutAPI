@@ -104,9 +104,9 @@ python mcp_server.py # 启动 MCP 协议服务，支持 stdio 通信
     "capcut-api": {
       "command": "python3",
       "args": ["mcp_server.py"],
-      "cwd": "/path/to/CapCutAPI",
+      "cwd": "/path/to/VectCutAPI",
       "env": {
-        "PYTHONPATH": "/path/to/CapCutAPI",
+        "PYTHONPATH": "/path/to/VectCutAPI",
         "DEBUG": "0"
       }
     }
@@ -256,6 +256,8 @@ mcp_client.call_tool("add_text", {
 
 ## 进群交流
 ![交流群](https://github.com/user-attachments/assets/0e7124c3-b0dd-432b-aa2b-dca252b5d7ca)
+
+![交流群](https://github.com/user-attachments/assets/644c29c7-a130-4f7b-bec6-55eae3be5ce1)
 
 
 
